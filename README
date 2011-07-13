@@ -1,0 +1,3 @@
+change the .server file to point to the correct binary
+put the .server file in /usr/lib/bonobo/servers/
+install the timer-applet.png if necessary

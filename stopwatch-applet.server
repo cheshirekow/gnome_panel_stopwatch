@@ -1,0 +1,26 @@
+<oaf_info>
+<oaf_server iid="OAFIID:StopwatchApplet_Factory" type="exe"
+            location="/home/josh/Codes/c/stopwatch-applet/stopwatch-applet">
+
+        <oaf_attribute name="repo_ids" type="stringv">
+                <item value="IDL:Bonobo/GenericFactory:1.0"/>
+                <item value="IDL:Bonobo/Unknown:1.0"/>
+        </oaf_attribute>
+        <oaf_attribute name="name" type="string" value="Stopwatch Applet Factory"/>
+        <oaf_attribute name="description" type="string" value="Factory to create the stopwatch applet"/>
+</oaf_server>
+
+<oaf_server iid="OAFIID:StopwatchApplet" type="factory"
+            location="OAFIID:StopwatchApplet_Factory">
+
+        <oaf_attribute name="repo_ids" type="stringv">
+                <item value="IDL:GNOME/Vertigo/PanelAppletShell:1.0"/>
+                <item value="IDL:Bonobo/Control:1.0"/>
+                <item value="IDL:Bonobo/Unknown:1.0"/>
+        </oaf_attribute>
+        <oaf_attribute name="name" type="string" value="Stopwatch Applet"/>
+        <oaf_attribute name="description" type="string" value="A simple stopwatch"/>
+        <oaf_attribute name="panel:category" type="string" value="Utility"/>
+        <oaf_attribute name="panel:icon" type="string" value="/usr/share/pixmaps/timer-applet.png"/>
+</oaf_server>
+</oaf_info>

@@ -1,1 +1,0 @@
-gcc $(pkg-config --cflags --libs libpanelapplet-2.0) -o stopwatch-applet stopwatch-applet.c

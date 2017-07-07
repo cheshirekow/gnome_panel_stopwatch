@@ -1,0 +1,10 @@
+[Applet Factory]
+Id=StopwatchAppletFactory
+Location=/home/josh/Codes/c/stopwatch-applet/gnome3/stopwatch-applet
+Name=Stopwatch Applet Factory
+Description=Factory for the window navigation related applets
+
+[StopwatchApplet]
+Name=Stopwatch
+Description=Factory for the Stopwatch applet 
+Icon=stopwatch-icon
